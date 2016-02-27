@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="TicTacToeStyles.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="TicTacToeFunctions.js"></script>
+</head>
+
+<body>
+    <div id = container>
+        <div id = bodyText>
+            <div id = headers style="margin-top: 0">
+                <div id = "scores"><h5>Score: 0 | 0</h5></div>
+                <div id = "winner"></div>
+                <div id = "player"><h5>Player 1</h5></div>
+            </div>
+
+            <div id="board">
+                <table align="center">
+                    <tr>
+                        <td class="square" id = "1"> <button></button> </td>
+                        <td class="square v" id = "2"> <button></button > </td>
+                        <td class="square" id = "3"> <button></button> </td>
+                    </tr>
+                    <tr>
+                        <td class="square h" id = "4"> <button></button> </td>
+                        <td class="square v h" id = "5"> <button></button> </td>
+                        <td class="square h" id = "6"> <button></button> </td>
+                    </tr>
+                    <tr>
+                        <td class="square" id = "7"> <button></button> </td>
+                        <td class="square v" id = "8"> <button></button> </td>
+                        <td class="square" id = "9"> <button></button> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

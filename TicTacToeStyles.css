@@ -1,0 +1,59 @@
+button
+{
+    padding: 50px 50px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+#board
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.square
+{
+    width:100px;
+    height:100px;
+    cursor:pointer;
+}
+.v
+{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+.h
+{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+#scores
+{
+    float: left;
+    font-size: x-large;
+}
+#winner
+{
+    float: left;
+    margin-left: 10%;
+    font-size: x-large;
+}
+#player
+{
+    float: right;
+    font-size: x-large;
+}
+
+#header
+{
+    background-color: black;
+    color: white;
+    padding: .2px 10px;
+    text-align: center;
+}
+#container
+{
+    width: auto;
+}

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tic Tac Toe",
+  "description": "This extension allows you to play Tic Tac Toe any time you feel like it. I hope you enjoy!",
+  "version": "2.0",
+
+  "icons": {
+    "16": "tic-tac-toe.png",
+    "48": "tic-tac-toe.png",
+    "128": "tic-tac-toe.png"
+  },
+  "browser_action":
+  {
+    "default_icon": "tic-tac-toe.png",
+    "default_popup": "popup.html",
+    "default_title": "Tic Tac Toe"
+  },
+  "permissions":
+  [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "background":
+  {
+    "scripts": ["jquery-2.1.4.min.js"]
+  }
+}
